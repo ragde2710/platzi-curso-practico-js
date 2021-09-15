@@ -1,1 +1,3 @@
-# platzi-curso-practico-js
+Curso Practico Javascript
+
+Ejercicios del curso practico de JavaScript en Platzi.
