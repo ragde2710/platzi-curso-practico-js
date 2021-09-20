@@ -1,0 +1,42 @@
+
+.index {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 10rem;
+    background-color: var(--dark-color);
+    box-shadow: var(--head-shadow);
+    color: yellow;
+    border-bottom-left-radius: 2rem;
+}
+
+.header h1 {
+    margin-top: 2rem;
+    font-size: 4rem;
+    margin-right: auto;
+    margin-left: 1rem;
+    text-shadow: var(--texthead-shadow);
+}
+
+
+.box {
+    width: 30rem;
+    height: 10rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: auto;
+    background-color: yellow;
+    text-align: center;
+    box-shadow: var(--title-shadow);
+    color: var(--dark-color);
+    text-decoration: none;
+    text-shadow: var(--text-shadow);
+    border-radius: 0.5rem;
+}
+
+.box h3 {
+    margin-top: 1rem;
+}

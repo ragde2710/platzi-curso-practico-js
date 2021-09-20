@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --content-text:
+        rgb(209, 207, 78);
+    --head-shadow:
+        rgba(0, 0, 0, 0.3) 0px 19px 38px, 
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;   
+    --title-shadow:
+        rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+        rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.06) 0px 2px 1px,
+        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+        rgba(0, 0, 0, 0.09) 0px 8px 4px,
+        rgba(0, 0, 0, 0.09) 0px 16px 8px,
+        rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    --dark-color: rgba(26, 26, 27, 0.877);
+    --texthead-shadow:
+        0 -1px 0 #fff, 0 1px 0 #2e2e2e,
+        0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a,
+        0 4px 0 #282828, 0 5px 0 #262626,
+        0 6px 0 #242424, 0 7px 0 #222,
+        0 8px 0 #202020, 0 9px 0 #1e1e1e,
+        0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a,
+        0 12px 0 #181818, 0 13px 0 #161616,
+        0 14px 0 #141414, 0 15px 0 #121212,
+        0 22px 30px rgba(0, 0, 0, 0.9);
+    --text-shadow:
+        -1px -1px 1px rgba(255, 255, 255, .1),
+        1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
